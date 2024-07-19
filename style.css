@@ -223,6 +223,13 @@ button{
         padding: 8px 16px;
         font-size: 14px; 
     }
+    .my-button {
+        padding: 6px 12px; /* Even smaller button padding */
+    }
+
+    .fa-brands {
+        font-size: 18px; /* Even smaller social icon size */
+    }
 }
 
 
