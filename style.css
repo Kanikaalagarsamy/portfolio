@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head{
+    position:fixed;
+    display:flex;
+    background: rgb(113, 161, 161);
+    width:100%;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.top a{
+    text-decoration: none;
+    padding: 8px;  
+}
+a:hover{
+    color:aqua;
+}
+#home{
+    display: flex;
+}
+.image{
+    padding:10% 0 0 25%;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+
+.hom {
+    padding:20% 25% 0 10%;  
+    text-align: center;
+    
+}
+h3{
+    font-size: 50px;
+    padding-top: 8%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fs{
+    padding-top: 0% ;
+    font-style: italic;
+    color:blue;
+}
+button{
+    margin: 10% 0 10% 0;
+}
+.fa-brands.fa-github{
+    font-size: 30px;
+    padding: 0 10% 0 0;
+}
+.fa-brands.fa-linkedin{
+    font-size: 30px;
+}
+.my-button{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* about section */
+
+#about{
+    text-align: center;
+    padding: 10% 10% 5% 10%;
+}
+.ab h4{
+    color: #246026;
+    font-style: oblique;
+    font-size: 30px;
+}
+.ab p{
+    color:rgb(77, 7, 77)
+}
+/* skills section */
+
+#skills{
+    text-align: center;
+    padding: 5% 0 5% 0;
+    margin: 20% 0 20% 0;
+    color: rgb(44, 27, 117);
+}
+.fa-brands.fa-html5{
+    font-size: 30px;
+    padding: 4%  45% 1% 10%;
+}
+.fa-brands.fa-css3-alt{
+    font-size: 30px;
+    padding: 4%  10% 1% 45%;
+}
+.fa-brands.fa-js{
+    font-size: 30px;
+    padding: 4% 45% 1% 10%;
+}
+.fa-brands.fa-java{
+    font-size: 30px;
+    padding: 4% 10% 1% 45%;
+}
+.fa-solid.fa-database{
+    font-size: 30px;
+    padding: 4% 45% 1% 10%;
+}
+.icons h6{
+    font-size: x-small;
+    color:rgb(18, 122, 122);
+    padding-top: 2%;
+}
+/* education section */
+#education{
+    text-align: center;
+    padding: 5% 0 5% 0;
+    margin: 40% 0 20% 0;
+    color:rgb(92, 41, 41);
+}
+.fa-solid.fa-school{
+    font-size: 30px; 
+    padding: 10% 55% 5% 20%;  
+}
+.fa-solid.fa-graduation-cap{
+    font-size: 30px;
+    padding: 5% 35% 5% 20%;
+}
+.scl p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    font-size: 10px;
+    color:rgb(11, 9, 12);
+}
+/* contact section */
+#contact{
+    text-align: center;
+    padding: 5% 0 5% 0;
+    margin: 40% 0 20% 0;
+    color:rgb(92, 41, 41);  
+}
+.con-form{
+    border-style: solid;
+    padding: 3% 0 3% 0;
+    margin:4% 40% 0 40%;
+    border-radius: 35px;
+}
+.con-form input{
+    padding:2% 0 2% 0;
+}
+.send{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .head {
+        padding: 10px;
+    }
+
+    .image {
+        padding: 5% 0 0 10%;
+    }
+
+    .hom {
+        padding: 10% 15% 0 5%;
+    }
+
+    h3 {
+        font-size: 30px; 
+    }
+
+    .fa-brands.fa-github,
+    .fa-brands.fa-linkedin {
+        font-size: 20px; 
+        padding: 0 5% 0 0;
+    }
+
+    .fa-brands.fa-html5,
+    .fa-brands.fa-css3-alt,
+    .fa-brands.fa-js,
+    .fa-brands.fa-java,
+    .fa-solid.fa-database {
+        font-size: 20px; 
+        padding: 4% 30% 1% 10%;
+    }
+
+    .icons h6 {
+        font-size: small; 
+    }
+
+    #education,
+    #contact {
+        margin: 20% 0 10% 0;
+    }
+}
+
+
+
+
+

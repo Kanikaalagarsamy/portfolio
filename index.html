@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="head">
+        <div class="name">KANIKA A</div>
+        <nav class="top">
+            <div class="navbar">
+              <a href="#home">HOME</a>
+              <a href="#about">ABOUT</a>
+              <a href="#skills">SKILLS</a>
+              <a href="#projects">PROJECTS</a>
+              <a href="#education">EDUCATION</a>
+              <a href="#contact">CONTACT</a> 
+            </div>  
+        </nav>
+    </div>
+    </header>
+    <!-- home section -->
+    <section id="home">
+        <div class="image" >
+            <img src="photos/kanika2.jpg">
+        </div>
+        <div class="hom" >  
+            <p> Hello..I'm<br></p>
+            <h3>KANIKA  A</h3>
+            <p class="fs">I'm Full Stack Developer</p>
+            <a href="https://drive.google.com/file/d/1DtuGczAa9gY2SOmBlF3yP_WkLnZYAom3/view?usp=drive_link"><button  class="my-button" onclick="open()">RESUME</button></a><br>
+            <a href="https://github.com/Kanikaalagarsamy"><i class="fa-brands fa-github" ></i></a>
+            <a href="https://www.linkedin.com/in/kanika-alagar-1930382b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+    </section>
+    <!-- about section -->
+    <section id="about">
+        <div class="image2">
+            <img src="photos/kanika3.jpg" style="width:200px;height:300px">
+        </div>
+        <div class="ab">
+        <h4>Kanika Alagar</h4>
+        <p >Enthusiastic student of Electronics and Communication Enginnering.<br>Having a keen interest to becoma a FULL STACK developer and with a quick grasping skills for the roll.<br>I'm looking forword for my first work experience...</p>
+        </div>
+    </section>
+    <!-- skills section -->
+    <section id="skills">
+        <div class="sk" >
+            <h4>SKILLS</h4>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-html5"><br><h6>HTML</h6></i><br>
+            <i class="fa-brands fa-css3-alt"><br><h6>CSS</h6></i><br>
+            <i class="fa-brands fa-js"><br><h6>JAVASCRIPT</h6></i><br>
+            <i class="fa-brands fa-java"><br><h6>JAVA</span></h6></i><br>
+            <i class="fa-solid fa-database"><br><h6>QL</h6></i><br>
+        </div>
+               
+    </section>
+    <!-- projects section -->
+    <section id="projects"></section>
+    <!-- education section -->
+    <section id="education">
+            <h4>EDUCATION</h4>
+            <div class="scl">
+            <i class="fa-solid fa-school" >            
+            <p>TMHNU MAT.HR.SEC.SCHOOL<br>[2017-2021]</p></i><br>
+            <i class="fa-solid fa-graduation-cap">
+            <p>PSNA College Of Enginnering and Technology<br>[2021-2025]</p></i><br>
+            </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+        <div class="con">
+            <h4>CONTACT</h4><br>
+            <form id="contact-form" action="#" class="con-form" onsubmit="send(event)">
+                <input type="text" id="name" placeholder="Name" class="control-input" required><br>
+                <input type="email" id="email" placeholder="Email" class="control-input" required> <br>
+                <textarea id="message" cols="30" rows="10" placeholder="Message" class="control-input" required></textarea><br>
+                <button type="submit" class="send">SEND</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 400,
+            once: false,
+        });
+      </script>
+</body>
+</html>
